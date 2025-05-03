@@ -24,5 +24,7 @@ demo地址: [在线预览](https://mihome-zone-binary-converter.netlify.app)
 如图设置了 ```2.25米内``` 换算成10进制值就是: **1-7**
 ![4](https://github.com/jacksen168sub/MiHome_zone_binary_converter/blob/main/images/4.png)
 ![5](https://github.com/jacksen168sub/MiHome_zone_binary_converter/blob/main/images/5.png)
+
 那么在米家自动化极客版内查询的值就会被控制在**7**之内,不会超过**7**
+
 假设传感器显示8个格子能量值全满了(11111111 = 255),那么在米家自动化极客版内的查询结果就会是**7**,而不会是**8-255**
